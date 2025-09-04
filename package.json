@@ -60,15 +60,16 @@
     "zustand": "^5.0.5"
   },
   "devDependencies": {
-    "@types/react": "^19.1.3",
-    "@types/react-dom": "^19.1.3",
-    "autoprefixer": "^10.4.21",
-    "esbuild": "^0.25.4",
-    "esbuild-style-plugin": "^1.6.3",
-    "postcss": "^8.4.35",
-    "rimraf": "^6.0.1",
-    "tailwindcss": "^3.4.17",
-    "tailwindcss-animate": "^1.0.7",
-    "@remix-run/dev": "^2.10.3"
-  }
+  "@types/react": "^19.1.3",
+  "@types/react-dom": "^19.1.3",
+  "autoprefixer": "^10.4.21",
+  "esbuild": "^0.25.4",
+  "esbuild-style-plugin": "^1.6.3",
+  "postcss": "^8.4.35",
+  "rimraf": "^6.0.1",
+  "tailwindcss": "^3.4.17",
+  "tailwindcss-animate": "^1.0.7",
+  "@remix-run/dev": "^2.10.3",
+  "@remix-run/node": "^2.10.3"
+}
 }
