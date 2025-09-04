@@ -5,7 +5,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
-  },
+  }
   "dependencies": {
     "@hookform/resolvers": "^3.0.1",
     "@radix-ui/react-accordion": "^1.2.0",
@@ -68,8 +68,6 @@
   "postcss": "^8.4.35",
   "rimraf": "^6.0.1",
   "tailwindcss": "^3.4.17",
-  "tailwindcss-animate": "^1.0.7",
-  "@remix-run/dev": "^2.10.3",
-  "@remix-run/node": "^2.10.3"
+  "tailwindcss-animate": "^1.0.7"
 }
 }
