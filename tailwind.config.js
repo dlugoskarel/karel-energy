@@ -1,11 +1,12 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   darkMode: ['class'],
-  content: ['./src/**/*.{html,js,ts,jsx,tsx}'],
+  content: [
+    './index.html',             // <- pridaj toto
+    './src/**/*.{html,js,ts,jsx,tsx}',
+  ],
   theme: {
-    container: {
-      center: true,
-    },
+    container: { center: true },
     extend: {
       colors: {
         background: 'hsl(var(--background))',
@@ -66,20 +67,12 @@ module.exports = {
       },
       keyframes: {
         'accordion-down': {
-          from: {
-            height: '0',
-          },
-          to: {
-            height: 'var(--radix-accordion-content-height)',
-          },
+          from: { height: '0' },
+          to: { height: 'var(--radix-accordion-content-height)' },
         },
         'accordion-up': {
-          from: {
-            height: 'var(--radix-accordion-content-height)',
-          },
-          to: {
-            height: '0',
-          },
+          from: { height: 'var(--radix-accordion-content-height)' },
+          to: { height: '0' },
         },
       },
       animation: {
